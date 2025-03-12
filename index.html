@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Strona</title>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <link href="css/style.css" rel="stylesheet">
+ <link href="css/article.css" rel="stylesheet">
+ <script defer src="js/script.js"></script>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body class="body BoxModel">
+ <header class="header">
+   <h1>Witam Cię na mojej stronie internetowej!</h1>
+ </header>
+ <nav>
+   <ul>
+   <a href=#main>Strona główna</a>
+   <a href=#birdwatching>Birdwatching</a>
+   </ul>
+ </nav>
+ <button class="button">Włącz ciemny motyw</button>
+ <br>
+
+ <main id="main">
+   <article class="article">
+     <h4>O mnie</h4>
+     <p class="article__paragraph">Jestem Kasia, mam 25 lat i mieszkam w Gdańsku. Moim marzeniem jest zostać projektantem stron internetowych i game developerem!</p>
+     <hr>
+     <h4>Moje ulubione czynności</h4>
+     <p class="article__paragraph">Czytanie, oglądanie filmów, birdwatching (oglądanie ptaków w przyrodzie), aktywność fizyczna, słuchanie muzyki.</p>
+   </article>
+ </main>
+
+<section class="birdwatching" id="birdwatching">
+<h3>Najrzadziej spotykane ptaki w Polsce</h3>
+</section>
+
+ <table class="table">
+   <thead>   
+    
+     <tr>
+     <th class="table__cell table__cell--header" scope="col">Lp.</th>
+     <th class="table__cell table__cell--header" scope="col">Nazwa gatunku</th>
+     <th class="table__cell table__cell--header" scope="col">Rozpiętość skrzydeł</th>
+     <th class="table__cell table__cell--header" scope="col">Rodzina</th>
+    </tr>
+   </thead>
+
+
+   <tbody>
+   <tr>
+    <th class="table__cell table__cell--header" scope="row">1.</th>
+    <td class="table__cell">Orzeł przedni</td>
+    <td class="table__cell">190 - 225 cm</td>
+    <td class="table__cell" rowspan="2">Jastrzębiowate</td>
+   </tr>
+   <tr>
+    <th class="table__cell table__cell--header" scope="row">2.</th>
+    <td class="table__cell">Orlik grubodzioby</td>
+    <td class="table__cell">155 - 180 cm</td>
+   </tr>
+   <tr>
+    <th class="table__cell table__cell--header" scope="row">3.</th>
+    <td class="table__cell">Sokół wędrowny</td>
+    <td class="table__cell">87 - 114 cm</td>
+    <td class="table__cell">Sokołowate</td>
+   </tr>
+   <tr>
+    <th class="table__cell table__cell--header" scope="row">4.</th>
+    <td class="table__cell">Pomurnik</td>
+    <td class="table__cell">ok. 27 cm</td>
+    <td class="table__cell">Pomurniki</td>
+   </tr>
+   <tr>
+    <th class="table__cell table__cell--header" scope="row">5.</th>
+    <td class="table__cell">Kraska</td>
+    <td class="table__cell">62 - 72 cm</td>
+    <td class="table__cell">Kraski</td>
+   </tr>
+ </tbody>
+</table>
+
+<footer>© Copyright 2025 by Katarzyna Sukiennik</footer>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+html {
+    box-sizing: border-box;
+    }
+    
+    *, ::before, ::after {
+    box-sizing: inherit;
+    }
+    
+    body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    line-height: 1.8;
+    max-width: 1000px;
+    margin: 0 auto;    
+    padding: 20px;
+    background-color: white;
+    color: black;
+    transition: background-color 0.3s, color 0.3s;
+    }
+    
+    body.dark-mode {
+    background-color: black;
+    color: white;
+    }
+    
+    a:visited {
+    color: rgb(197, 89, 202);
+    }
+    
+    .header {
+    color: rgb(52, 67, 231);
+    }
+    
+    .birdwatching {
+        margin-top: 20px;
+    }
+
+    .table {
+    font-family: "Inter", sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 50px;
+    }
+    
+    .table__cell {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    vertical-align: auto;
+    }
+      
+    .caption {
+    caption-side: bottom;
+    text-align: left;
+    }
+    
+    .table__cell--header {
+    background-color: rgb(52, 67, 231);
+    color: white;
+    font-weight: normal;
+    }
+    
+    .element {
+    max-width: 1000px;
+    }    
