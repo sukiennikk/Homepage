@@ -12,3 +12,10 @@ button.addEventListener("click", () => {
        button.textContent = "Włącz ciemny motyw";
    }
 });
+
+
+let myNumber = 5;
+
+let double = number => number * 2;
+
+console.log(double(myNumber));
